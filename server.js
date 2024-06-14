@@ -8,10 +8,10 @@ app.use(bodyParser.json());
 
 const pool = new Pool({
     user: 'postgres',
-    host: 'localhost',
-    database: 'kris',
-    password: '123',
-    port: 5432,
+    host: 'monorail.proxy.rlwy.net',
+    database: 'postgres',
+    password: 'mzfBiohSdTIWjQeoqfyPYRRbLGRDLviw',
+    port: 49609,
 });
 
 app.use(express.static(path.join(__dirname)));
