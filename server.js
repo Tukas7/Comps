@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 const pool = new Pool({
     user: 'postgres',
     host: 'monorail.proxy.rlwy.net',
-    database: 'postgres',
+    database: 'railway',
     password: 'mzfBiohSdTIWjQeoqfyPYRRbLGRDLviw',
     port: 49609,
 });
